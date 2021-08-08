@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Heebo:wght@600&family=Lobster&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(red, blue);
+}
+* {
+  font-family: "Heebo", sans-serif;
+}
+*::selection {
+  background-color: rgba(75, 214, 11, 0.877);
+  color: white;
+}
+/*Header nav */
+.navbar-text {
+  font-family: "Lobster", cursive;
+  font-size: x-large;
+  padding: 10px 30px;
+}
+.navbar-toggler {
+  margin: 10px 30px;
+}
+li.nav-item {
+  text-align: center;
+}
+li.nav-item:hover {
+  background-color: grey;
+}
+
+/*navbar end*/
+
+.title {
+  margin: 2% auto;
+  text-align: center;
+  color: gold;
+  font-family: "Acme", sans-serif;
+  font-size: 60px;
+}
+
+li {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.menu-item {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  color: black;
+  display: block;
+}
+
+.menu-item:hover {
+  background-color: rgba(2, 0, 0, 0.9);
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.row {
+  margin: 20px;
+}
+
+.content-box {
+  margin: 20px;
+  width: auto;
+  height: auto;
+  color: black;
+  background-color: gold;
+  padding: 20px;
+}
+
+.item-name {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
